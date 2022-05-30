@@ -33,3 +33,25 @@ contenido.
 
 print('Ejercicios de práctica con cadenas')
 # Empezar aquí la resolución del ejercicio
+print('Ingrese palabra 1:')
+palabra_1 = str(input())
+print('Ingrese palabra 2:')
+palabra_2 = str(input())
+print('Ingrese palabra 3:')
+palabra_3 = str(input())
+print('Si queire Ordenar por orden alfabético, Ingrese opcion 1.')
+print('Si quiere Ordenar por cantidad de letras Ingrese opcion 2:')     
+opcion = int(input())
+
+#if opcion == 1:
+my_list=str()
+my_list = palabra_1,palabra_2,palabra_3
+sorted_list = sorted(my_list)
+print(sorted_list)
+#else:
+texto_1 = len(palabra_1)                                      
+texto_2 = len(palabra_2)
+texto_3 = len(palabra_2)
+list = texto_1,texto_2,texto_3
+sorted_list1 = sorted(list)
+print(sorted_list1)

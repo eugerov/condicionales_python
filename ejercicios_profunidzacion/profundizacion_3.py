@@ -30,3 +30,20 @@ contenido. Recomendamos pensar bien este problema de lógica con un lápiz y pap
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+print('Ingrese numero 1:')
+numero_1 = int(input())
+print('Ingrese numero 2:')
+numero_2 = int(input())
+print('Ingrese numero 3:')
+numero_3 = int(input())
+
+list = numero_1,numero_2,numero_3
+maximum = max(list)
+print(maximum,'temperatura max')
+
+list = numero_1,numero_2,numero_3
+minima = min(list)
+print(minima,'temperatura min')
+
+promedio = (numero_1 + numero_2 + numero_3)/3
+print(promedio,' es el promedio de la temperatura')
